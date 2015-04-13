@@ -3,9 +3,10 @@ Endroid Google API Bundle
 
 *By [endroid](http://endroid.nl/)*
 
-[![Build Status](https://secure.travis-ci.org/endroid/EndroidGoogleAPIBundle.png)](http://travis-ci.org/endroid/EndroidGoogleAPIBundle)
-[![Latest Stable Version](https://poser.pugx.org/endroid/google-api-bundle/v/stable.png)](https://packagist.org/packages/endroid/google-api-bundle)
-[![Total Downloads](https://poser.pugx.org/endroid/google-api-bundle/downloads.png)](https://packagist.org/packages/endroid/google-api-bundle)
+[![Build Status](http://img.shields.io/travis/endroid/EndroidGoogleAPIBundle.svg)](http://travis-ci.org/endroid/EndroidGoogleAPIBundle)
+[![Latest Stable Version](http://img.shields.io/packagist/v/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
+[![Total Downloads](http://img.shields.io/packagist/dt/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
+[![License](http://img.shields.io/packagist/l/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
 
 This bundle provides easy integration with [`google/google-api-php-client`](https://github.com/google/google-api-php-client)
 which allows you to access different Google API's. For more information visit the [`developer documentation`](https://developers.google.com/api-client-library/php/).
