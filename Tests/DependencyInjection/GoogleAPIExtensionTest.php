@@ -9,7 +9,9 @@
 
 namespace Endroid\Bundle\GoogleAPIBundle\Tests\DependencyInjection;
 
-class GoogleAPIExtensionTest extends \PHPUnit_Framework_TestCase
+use PHPUnit_Framework_TestCase;
+
+class GoogleAPIExtensionTest extends PHPUnit_Framework_TestCase
 {
     public function testNoTestsYet()
     {
