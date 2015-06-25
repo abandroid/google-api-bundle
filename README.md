@@ -1,5 +1,5 @@
-Endroid Google API Bundle
-=========================
+Google API Bundle
+=================
 
 *By [endroid](http://endroid.nl/)*
 
