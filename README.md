@@ -3,7 +3,7 @@ Google API Bundle
 
 *By [endroid](http://endroid.nl/)*
 
-[![Build Status](http://img.shields.io/travis/endroid/EndroidGoogleApiBundle.svg)](http://travis-ci.org/endroid/EndroidGoogleApiBundle)
+[![Build Status](http://img.shields.io/travis/endroid/GoogleApiBundle.svg)](http://travis-ci.org/endroid/GoogleApiBundle)
 [![Latest Stable Version](http://img.shields.io/packagist/v/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
 [![Total Downloads](http://img.shields.io/packagist/dt/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
 [![License](http://img.shields.io/packagist/l/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
@@ -11,7 +11,7 @@ Google API Bundle
 This bundle provides easy integration with [`google/google-api-php-client`](https://github.com/google/google-api-php-client)
 which allows you to access different Google API's. For more information visit the [`developer documentation`](https://developers.google.com/api-client-library/php/).
 
-[![knpbundles.com](http://knpbundles.com/endroid/EndroidGoogleApiBundle/badge-short)](http://knpbundles.com/endroid/EndroidGoogleApiBundle)
+[![knpbundles.com](http://knpbundles.com/endroid/GoogleApiBundle/badge-short)](http://knpbundles.com/endroid/GoogleApiBundle)
 
 ## Installation
 
@@ -31,7 +31,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Endroid\Bundle\GoogleApiBundle\EndroidGoogleApiBundle(),
+        new Endroid\Bundle\GoogleApiBundle\GoogleApiBundle(),
     );
 }
 ```
