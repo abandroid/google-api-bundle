@@ -14,16 +14,20 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 class Configuration implements ConfigurationInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('endroid_google_api');
 
-        $rootNode
-            ->children()
-                ->scalarNode('application_name')->defaultValue('Google API Application')->end()
-                ->scalarNode('api_key')->isRequired()->cannotBeEmpty()->end()
-            ->end();
+        $treeBuilder
+            ->root('endroid_google_api')
+                ->children()
+                    ->scalarNode('application_name')->defaultValue('Google API Application')->end()
+                    ->scalarNode('api_key')->isRequired()->cannotBeEmpty()->end()
+                ->end()
+        ;
 
         return $treeBuilder;
     }

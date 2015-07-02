@@ -2,7 +2,7 @@
     "name": "endroid/google-api-bundle",
     "description": "Endroid Google API for Symfony",
     "keywords": ["endroid", "google", "api", "symfony", "bundle"],
-    "homepage": "https://github.com/endroid/EndroidGoogleAPIBundle",
+    "homepage": "https://github.com/endroid/EndroidGoogleApiBundle",
     "type": "library",
     "license": "MIT",
     "authors": [

@@ -11,6 +11,6 @@ namespace Endroid\Bundle\GoogleApiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class GoogleApiBundle extends Bundle
+class EndroidGoogleApiBundle extends Bundle
 {
 }
