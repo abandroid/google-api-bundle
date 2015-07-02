@@ -7,10 +7,10 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\GoogleAPIBundle;
+namespace Endroid\Bundle\GoogleApiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class EndroidGoogleAPIBundle extends Bundle
+class GoogleApiBundle extends Bundle
 {
 }

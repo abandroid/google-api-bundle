@@ -7,11 +7,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\GoogleAPIBundle\Tests\DependencyInjection;
+namespace Endroid\Bundle\BehaviorBundle;
 
 use PHPUnit_Framework_TestCase;
 
-class GoogleAPIExtensionTest extends PHPUnit_Framework_TestCase
+class GoogleApiBundleTest extends PHPUnit_Framework_TestCase
 {
     public function testNoTestsYet()
     {

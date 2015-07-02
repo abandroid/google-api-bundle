@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Endroid\\Bundle\\GoogleAPIBundle\\": ""
+          "Endroid\\Bundle\\GoogleApiBundle\\": [ "src/", "tests/" ]
         }
     },
     "config": {
