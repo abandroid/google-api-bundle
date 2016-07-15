@@ -3,9 +3,10 @@ Google API Bundle
 
 *By [endroid](http://endroid.nl/)*
 
-[![Build Status](http://img.shields.io/travis/endroid/EndroidGoogleApiBundle.svg)](http://travis-ci.org/endroid/EndroidGoogleApiBundle)
 [![Latest Stable Version](http://img.shields.io/packagist/v/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
+[![Build Status](http://img.shields.io/travis/endroid/EndroidGoogleApiBundle.svg)](http://travis-ci.org/endroid/EndroidGoogleApiBundle)
 [![Total Downloads](http://img.shields.io/packagist/dt/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
+[![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
 [![License](http://img.shields.io/packagist/l/endroid/google-api-bundle.svg)](https://packagist.org/packages/endroid/google-api-bundle)
 
 This bundle provides easy integration with [`google/google-api-php-client`](https://github.com/google/google-api-php-client)
@@ -61,9 +62,9 @@ $translations = $service->translations->listTranslations('Hello', 'fr');
 
 ## Versioning
 
-Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatible
-changes will be kept to a minimum but be aware that these can occur. Lock
-your dependencies for production and test your code when upgrading.
+Version numbers follow the MAJOR.MINOR.PATCH scheme. Backwards compatibility
+breaking changes will be kept to a minimum but be aware that these can occur.
+Lock your dependencies for production and test your code when upgrading.
 
 ## License
 
