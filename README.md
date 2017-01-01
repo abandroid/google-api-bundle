@@ -30,10 +30,10 @@ Then enable the bundle via the kernel.
 
 public function registerBundles()
 {
-    $bundles = array(
+    $bundles = [
         // ...
         new Endroid\Bundle\GoogleApiBundle\EndroidGoogleApiBundle(),
-    );
+    ];
 }
 ```
 
