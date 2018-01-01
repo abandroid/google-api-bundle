@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\GoogleApiBundle;
+namespace Endroid\GoogleApiBundle;
 
 use PHPUnit_Framework_TestCase;
 
