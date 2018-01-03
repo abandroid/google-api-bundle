@@ -15,9 +15,9 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\Config\FileLocator;
 
-class EndroidGoogleApiExtension extends Extension
+final class EndroidGoogleApiExtension extends Extension
 {
-    public function load(array $configs, ContainerBuilder $container)
+    public function load(array $configs, ContainerBuilder $container): void
     {
         $processor = new Processor();
         $config = $processor->processConfiguration(new Configuration(), $configs);
@@ -25,8 +25,8 @@ class EndroidGoogleApiExtension extends Extension
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        foreach ($config as $key => $value) {
-            $container->setParameter('endroid_google_api.'.$key, $value);
-        }
+        $definition = $container->getDefinition('Google_Client');
+        $definition->addMethodCall('setApplicationName', [$config['application_name']]);
+        $definition->addMethodCall('setDeveloperKey', [$config['api_key']]);
     }
 }

@@ -1,7 +1,3 @@
 services:
-    endroid.google_api_client:
+    Google_Client:
         class: Google_Client
-        calls:
-#            - [ setApplicationName, [ %endroid_google_api.application_name% ] ]
-            - [ setDeveloperKey, [ %endroid_google_api.api_key% ] ]
-        lazy: true

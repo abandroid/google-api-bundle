@@ -9,11 +9,11 @@
 
 namespace Endroid\GoogleApiBundle;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class EndroidGoogleApiBundleTest extends PHPUnit_Framework_TestCase
+class EndroidGoogleApiBundleTest extends TestCase
 {
-    public function testNoTestsYet()
+    public function testNoTestsYet(): void
     {
         $this->assertTrue(true);
     }
